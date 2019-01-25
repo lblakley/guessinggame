@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Guessing Game</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="stylsheet.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Guessing Game</h1>
+
+
+        <h2>Can you guess what number the computer is thinking of? <br> </h2>
+           <h3> Guess a number 1-100</h3>
+        <div class="row">
+            <form class="col s12">
+                <div class="row">
+                    <div class="input-field col s12">
+                        <textarea id="textarea1" class="materialize-textarea"></textarea>
+                        <label for="textarea1">Number</label>
+                    </div>
+                </div>
+            </form>
+
+            <div class="col s12">
+                <p id="guess">Guesses: <span id="guesses"></span></p>
+                <p> <br> </p>
+                <p> <br> </p>
+
+            </div>
+            <a id="restart" class="waves-effect waves-light btn">RESTART</a>
+            <a id="giveup" class="waves-effect waves-light btn black">GIVE UP</a>
+        </div>
+
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
